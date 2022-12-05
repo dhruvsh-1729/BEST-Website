@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 2px auto;
+}
+
+.transport-about{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:1520px;
+    overflow: hidden;
+    width:100%;
+}
+
+.transport-title{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:80px;
+    background: rgb(194,101,14);
+background: linear-gradient(90deg, rgba(194,101,14,1) 6%, rgba(242,0,0,1) 35%, rgba(104,21,21,1) 71%, rgba(29,25,25,1) 100%, rgba(217,14,14,1) 100%);
+    border:2px solid white;
+    border-radius: 8px;
+    height:150px;
+}
+
+.transport-title span{
+    color:white;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.transport-left-content{
+
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    /* border:2px solid red; */
+    top:200px;
+    width:500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    left:720px;
+    /* border:2px solid yellow; */
+    border:3px solid white;
+    background: rgb(194,101,14);
+background: linear-gradient(90deg, rgba(194,101,14,1) 6%, rgba(242,0,0,1) 35%, rgba(104,21,21,1) 71%, rgba(29,25,25,1) 100%, rgba(217,14,14,1) 100%);
+border-radius: 10px;
+}
+
+.transport-topic{
+    transition-duration:0.4s;
+}
+
+.transport-topic:hover{
+    transform: scale(1.02);
+    background: rgb(194,101,14);
+background: linear-gradient(90deg, rgba(194,101,14,1) 6%, rgba(242,0,0,1) 35%, rgba(104,21,21,1) 71%, rgba(29,25,25,1) 100%, rgba(217,14,14,1) 100%);
+        border:2px solid white;
+    border-radius: 5px;
+}
+
+.transport-topic span{
+    display: flex;
+    font-size:2.5rem;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:white;
+    text-align: center;
+}
+
+.transport-brief{
+    position:relative;
+    top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    transition-duration: 0.5s;
+}
+
+.transport-brief p{
+    color:white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.transport-image{
+    /* border:2px solid red; */
+    position:absolute;
+    right:20px;
+    top:1000px;
+}
+
+.transport-image img{
+    border:2px solid white;
+    border-radius: 5px;
+}
+
+#transport-bgimage{
+    position:relative;
+    bottom:500px;
+    z-index:-1;
+}
+

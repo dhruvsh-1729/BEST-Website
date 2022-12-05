@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+}
+
+.bg-image{
+    position: relative;
+    top:90px;
+    flex-direction: column;
+    height:750px;
+    width:1292px;
+    overflow:hidden;
+    /* border:2px solid red; */
+}
+
+.bg-image img{
+    position:absolute;
+    border:8px solid white;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.content{
+    background: rgb(222,136,136);
+background: linear-gradient(90deg, rgba(222,136,136,1) 0%, rgba(200,22,22,1) 62%, rgba(217,14,14,1) 74%, rgba(107,18,18,1) 94%);
+    position:relative;
+    top:200px;
+    left:100px;
+    height:400px;
+    width:600px;
+    border:3px solid white;
+    box-shadow: 10px 10px 10px 10px ;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    position:relative;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align:center;
+    margin:10px;
+    cursor:pointer;
+    transition-duration:0.5s;
+}
+.heading h1,h2{
+transition-duration: 0.5s;
+}
+.heading h1:hover{
+    transform:scale(1.05);
+}
+
+.heading h2:hover{
+    transform: scale(1.05);
+}
+
+.catchy{
+    position:relative;
+    color:white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:10px 10px;
+    font-size: 1.2rem;
+ 
+}
+
+.btn{
+
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    top:20px;
+}
+
+button{
+    background-color: white;
+    color:red;
+    font-size: 1.5rem;
+    text-align: center;
+    margin:10px auto;
+    padding: 10px 20px;
+    transition-duration:0.5s;
+    border:3px solid black;
+    border-radius: 5px;
+    cursor:pointer;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover{
+    background: rgb(222,136,136);
+    background: linear-gradient(90deg, rgba(222,136,136,1) 0%, rgba(200,22,22,1) 41%, rgba(217,14,14,1) 74%, rgba(205,169,169,1) 94%);
+color:white;
+border:3px solid white;
+border-radius: 5px;
+}
